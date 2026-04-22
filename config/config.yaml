@@ -1,0 +1,33 @@
+camera:
+  device_id: 0
+  width: 640
+  height: 480
+  fps: 30
+
+recognition:
+  tolerance: 0.6
+  model: "hog"
+  upsample_times: 1
+  detection_method: "hog"
+
+attendance:
+  auto_save: true
+  format: "csv"
+  late_threshold: 30
+  auto_mark_interval: 5
+
+database:
+  type: "sqlite"
+  path: "data/attendance.db"
+
+paths:
+  known_faces: "data/known_faces/"
+  attendance: "data/attendance/"
+  logs: "logs/"
+  temp: "data/temp/"
+  unknown_faces: "data/unknown_faces/"
+
+logging:
+  level: "INFO"
+  max_file_size: 10485760
+  backup_count: 5

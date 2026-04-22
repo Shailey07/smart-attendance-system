@@ -1,0 +1,12 @@
+{
+  "app_name": "Smart Attendance System",
+  "version": "1.0.0",
+  "theme": "light",
+  "language": "english",
+  "auto_start_camera": true,
+  "notification_enabled": true,
+  "sound_enabled": true,
+  "export_default_path": "data/attendance/",
+  "recognition_interval": 30,
+  "display_confidence": true
+}
