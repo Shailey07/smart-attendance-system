@@ -1,0 +1,35 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Database files
+*.db
+*.sqlite3
+
+# Data files (but keep folder structure)
+data/known_faces/*
+data/attendance/*.csv
+data/temp/*
+data/unknown_faces/*
+!data/known_faces/.gitkeep
+!data/attendance/.gitkeep
+!data/temp/.gitkeep
+!data/unknown_faces/.gitkeep
+
+# Logs
+logs/*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
