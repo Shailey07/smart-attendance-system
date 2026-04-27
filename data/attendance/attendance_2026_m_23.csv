@@ -1,0 +1,10 @@
+student_id,name,check_in,check_out,status,confidence
+STUC1BD31,shailendra,03:01:53,nan,present,1.0
+STU166D19,shailendra,11:41:00,11:42:01,present,1.0
+STU1B4C80,yogesh,11:42:06,11:43:23,present,1.0
+STUE417AF,shailendra,11:46:54,nan,present,1.0
+STU188561,shailey,11:49:15,11:50:26,present,1.0
+STU84D99E,YOGESH,11:49:52,11:51:14,present,1.0
+STU1A3976,KESHAV,11:51:08,nan,present,1.0
+STUFF8B34,samir,11:59:56,nan,present,1.0
+STU415183,NITIN ANAND,23:54:26,,present,0.4732444164232773
